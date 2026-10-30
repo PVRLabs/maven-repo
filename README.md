@@ -1,6 +1,6 @@
 # PVR Labs Maven Repository
 
-A lightweight, curated Maven repository for open-source Java libraries and preview releases. Publish through GitHub Releases without Maven Central / Sonatype onboarding. Use standard Maven or Gradle dependencies—no custom plugins or dependency managers required.
+A lightweight, curated Maven repository for open-source Java libraries and preview releases. Publish through GitHub Releases without Maven Central / Sonatype onboarding. Use standard Maven or Gradle dependencies, with no custom plugins or dependency managers required.
 
 Maven:
 
@@ -25,6 +25,12 @@ repositories {
 Add a library’s ordinary group, artifact, and version dependency alongside this configuration.
 The [public Maven repository](https://pvrlabs.github.io/maven/) is currently empty
 and preparing for its first releases.
+
+## Why this repository?
+
+Maven Central is great for stable releases, but its publishing process adds friction to frequent previews and experimental libraries. Inspired by our experience maintaining [Scriptella ETL](https://github.com/scriptella/scriptella-etl), this repository offers a simpler way to share and discover a small, curated collection of open-source Java libraries.
+
+[Read more about why we built it](docs/why.md).
 
 ## Contributing a library
 
