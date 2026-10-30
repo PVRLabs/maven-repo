@@ -1,8 +1,6 @@
 # PVR Labs Maven Repository
 
-PVR Labs provides a Maven-compatible distribution channel for curated early-stage open-source Java libraries. Add the repository below, then declare a library’s ordinary group, artifact, and version coordinates. The catalog is currently empty.
-
-Public artifact endpoint: <https://pvrlabs.github.io/maven/>
+A lightweight, curated Maven repository for open-source Java libraries and preview releases. Publish through GitHub Releases without Maven Central / Sonatype onboarding. Use standard Maven or Gradle dependencies—no custom plugins or dependency managers required.
 
 Maven:
 
@@ -23,6 +21,17 @@ repositories {
     mavenCentral()
 }
 ```
+
+Add a library’s ordinary group, artifact, and version dependency alongside this configuration.
+The [public Maven repository](https://pvrlabs.github.io/maven/) is currently empty
+and preparing for its first releases.
+
+## Contributing a library
+
+Submitted artifacts originate from public GitHub Releases, are verified with SHA-256,
+and are published in standard Maven repository layout. Submit a pull request with
+release asset URL pointers and digests; see [CONTRIBUTING.md](CONTRIBUTING.md) for
+the format and approval requirements. Published versions are immutable.
 
 ## Publishing
 
@@ -48,4 +57,4 @@ python3 -m unittest discover -s tests -v
 
 The suite includes a Maven consumer test, skipped only when Maven or a JDK is unavailable. It uses [`mvn-lite`](https://github.com/ejboy/agent-scripts#mvn-lite) when available (otherwise `mvn`) to compile a minimal consumer against a generated library and parent POM in a temporary file repository. Each run uses unique fixture coordinates to avoid satisfying resolution from a cached fixture. Maven uses its normal `~/.m2` cache for plugins and external dependencies; only missing plugins may require Maven Central access. No live GitHub Releases are used.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for submissions. The MIT license covers this project’s tooling and documentation; distributed libraries retain their own licenses.
+The MIT license covers this project’s tooling and documentation; distributed libraries retain their own licenses.
