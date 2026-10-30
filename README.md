@@ -37,7 +37,8 @@ Maven Central is great for stable releases, but its publishing process adds fric
 Submitted artifacts originate from public GitHub Releases, are verified with SHA-256,
 and are published in standard Maven repository layout. Submit a pull request with
 release asset URL pointers and digests; see [CONTRIBUTING.md](CONTRIBUTING.md) for
-the format and approval requirements. Published versions are immutable.
+the format and approval requirements. The [publishing walkthrough](docs/publishing-a-library.md)
+explains how to prepare and verify a release. Published versions are immutable.
 
 ## Publishing
 

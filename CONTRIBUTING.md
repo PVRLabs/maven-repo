@@ -22,6 +22,9 @@ accepted. No private dependencies or arbitrary binary hosting.
 
 ## Submitting artifacts
 
+See the [publishing a library walkthrough](docs/publishing-a-library.md) for build,
+release, pointer, and consumer verification steps.
+
 Build the library and upload its original POMs and JARs to a public GitHub Release.
 Include parent POMs and all required modules; optional source/Javadoc JARs are welcome.
 Preserve dependency and license declarations in POMs.
