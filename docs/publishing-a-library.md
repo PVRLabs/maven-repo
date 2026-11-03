@@ -138,6 +138,10 @@ passes.
 
 ## Submit pointers
 
+The [Maven submission tool](../tools/maven-submission-tool/README.md) can generate
+these pointers from an existing public GitHub Release. Inspect its output before
+submitting. The manual procedure below remains the fallback.
+
 In `PVRLabs/maven-repo`, add a `.url` file for each release asset under
 `artifacts/<groupId path>/<artifactId>/<version>/`. For the example above:
 
