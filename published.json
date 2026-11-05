@@ -1,1 +1,50 @@
-{"schemaVersion": 1, "artifacts": {}}
+{
+  "artifacts": {
+    "pvrlabs/maven-submission-tool/0.1.0/maven-submission-tool-0.1.0.jar": {
+      "publishedAt": "2026-11-05T23:12:07.863052+00:00",
+      "sha256": "88d2433506b44b803575a4f9d03a5da8287554d5eb9a474a361530f8a4234200",
+      "source": "https://github.com/PVRLabs/maven-repo/releases/download/maven-submission-tool-0.1.0/maven-submission-tool-0.1.0.jar"
+    },
+    "pvrlabs/maven-submission-tool/0.1.0/maven-submission-tool-0.1.0.pom": {
+      "publishedAt": "2026-11-05T23:12:07.865443+00:00",
+      "sha256": "9b100840dfe07ed4dfbf82af48d7dca061a9dd0a4a068f3409e6d73416fc7c68",
+      "source": "https://github.com/PVRLabs/maven-repo/releases/download/maven-submission-tool-0.1.0/maven-submission-tool-0.1.0.pom"
+    },
+    "xyz/pvrlabs/coilbase-core/0.1.0-preview1/coilbase-core-0.1.0-preview1-sources.jar": {
+      "publishedAt": "2026-11-05T23:12:07.868043+00:00",
+      "sha256": "3e1d57d13c5d0dac675637b3c2fb3782ea89fb352994a01edb7fe28a6a46e4b0",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-core-0.1.0-preview1-sources.jar"
+    },
+    "xyz/pvrlabs/coilbase-core/0.1.0-preview1/coilbase-core-0.1.0-preview1.jar": {
+      "publishedAt": "2026-11-05T23:12:07.870510+00:00",
+      "sha256": "676ca5eeb990e09f4ce0ea4aaa6cd8f17a8572adb904d5aecbe97ac58a59daa3",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-core-0.1.0-preview1.jar"
+    },
+    "xyz/pvrlabs/coilbase-core/0.1.0-preview1/coilbase-core-0.1.0-preview1.pom": {
+      "publishedAt": "2026-11-05T23:12:07.872493+00:00",
+      "sha256": "a1c904c06fd1cca0f41665027fbd5ab7392fa924991ef0a8a14242074695b751",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-core-0.1.0-preview1.pom"
+    },
+    "xyz/pvrlabs/coilbase-jex/0.1.0-preview1/coilbase-jex-0.1.0-preview1-sources.jar": {
+      "publishedAt": "2026-11-05T23:12:07.875074+00:00",
+      "sha256": "c71c25e388a0b5fadc671891498f2ec4fd99cbcf8864402f24d307dd15146a24",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-jex-0.1.0-preview1-sources.jar"
+    },
+    "xyz/pvrlabs/coilbase-jex/0.1.0-preview1/coilbase-jex-0.1.0-preview1.jar": {
+      "publishedAt": "2026-11-05T23:12:07.877182+00:00",
+      "sha256": "0c42eaee61a2ac119723ec389273dd07fcbd0f4d676b9f3eb76a0d8c3b4666f1",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-jex-0.1.0-preview1.jar"
+    },
+    "xyz/pvrlabs/coilbase-jex/0.1.0-preview1/coilbase-jex-0.1.0-preview1.pom": {
+      "publishedAt": "2026-11-05T23:12:07.879235+00:00",
+      "sha256": "e8a3a4b99ed26426401d8a7a4401ecceea2ee6f0c544ef04ba7806e70684f261",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-jex-0.1.0-preview1.pom"
+    },
+    "xyz/pvrlabs/coilbase-parent/0.1.0-preview1/coilbase-parent-0.1.0-preview1.pom": {
+      "publishedAt": "2026-11-05T23:12:07.881269+00:00",
+      "sha256": "6bed3f8bdaeb600b3951b0e5c3e277794fcf11812afaf94ad0c2f50a790055ba",
+      "source": "https://github.com/PVRLabs/coilbase/releases/download/0.1.0-preview1/coilbase-parent-0.1.0-preview1.pom"
+    }
+  },
+  "schemaVersion": 1
+}
