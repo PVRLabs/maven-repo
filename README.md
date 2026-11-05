@@ -23,8 +23,16 @@ repositories {
 ```
 
 Add a library’s ordinary group, artifact, and version dependency alongside this configuration.
-The [public Maven repository](https://pvrlabs.github.io/maven/) is currently empty
-and preparing for its first releases.
+
+## Hosted projects
+
+- [CoilBase](https://github.com/PVRLabs/coilbase) is a lightweight Java application
+  framework with Spring Boot-inspired simplicity, explicit SQL, and no heavyweight
+  runtime. Its published modules include `coilbase-core`, `coilbase-jex`, and the
+  `coilbase-parent` POM.
+
+See the [public Maven repository](https://pvrlabs.github.io/maven/) for published
+versions and downloads.
 
 ## Why this repository?
 
@@ -39,6 +47,8 @@ and are published in standard Maven repository layout. Submit a pull request wit
 release asset URL pointers and digests; see [CONTRIBUTING.md](CONTRIBUTING.md) for
 the format and approval requirements. The [publishing walkthrough](docs/publishing-a-library.md)
 explains how to prepare and verify a release. Published versions are immutable.
+The [Maven submission tool](tools/maven-submission-tool/README.md) helps prepare
+artifact submissions.
 
 ## Publishing
 
